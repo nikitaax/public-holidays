@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0a1026;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.holiday-container {
+  background: #151a33;
+  color: #39ff14;
+  min-height: 100vh;
+  padding: 2.5rem 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(57, 255, 20, 0.08), 0 1.5px 8px #39ff1422;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.holiday-title {
+  color: #39ff14;
+  font-weight: bold;
+  text-shadow: 0 2px 16px #39ff1488;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+h2 {
+  color: #b2ffe7;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.holiday-select {
+  background: #232a4d;
+  color: #39ff14;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0.7rem 2.5rem 0.7rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px #39ff1422;
+  transition: box-shadow 0.2s;
+  outline: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='lime' height='20' viewBox='0 0 20 20' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M5.516 7.548a.75.75 0 0 1 1.06 0L10 10.97l3.424-3.423a.75.75 0 1 1 1.06 1.06l-3.954 3.954a.75.75 0 0 1-1.06 0L5.516 8.608a.75.75 0 0 1 0-1.06z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1.2em;
+}
+
+.holiday-select:focus {
+  box-shadow: 0 0 0 2px #39ff14;
+}
+
+.holiday-select option {
+  background: #232a4d;
+  color: #39ff14;
+}
+
+.list-group {
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.list-group-item {
+  background: #232a4d !important;
+  color: #b2ffe7 !important;
+  border: none !important;
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.list-group-item:not(:last-child) {
+  border-bottom: 1px solid #39ff1422 !important;
+}
+
+.list-group-item:hover {
+  background: #39ff14 !important;
+  color: #151a33 !important;
+  cursor: pointer;
+}
+
+p {
+  color: #b2ffe7;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
